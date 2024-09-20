@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main()
+{
+ float bp,bouns,ta,ns;
+ printf("bp");
+ scanf("%d",&bp);
+ bouns=bp*10/100;
+ ta=bp*7.5/100;
+ ns=bp+bouns+ta;
+ printf("bouns=%d\n",bouns);
+ printf("travela=%0.2d\n",ta);
+ printf("Ns=%d\n",ns);
+ 
+         return 0;
+}
